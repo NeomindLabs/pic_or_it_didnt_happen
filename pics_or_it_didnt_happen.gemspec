@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'pics_or_it_didnt_happen'
-  s.version = '1.1.1'
+  s.version = '1.1.2'
   s.license = 'MIT'
   s.author = 'Greg Matthew Crossley'
   s.homepage = 'https://github.com/NeomindLabs/pics_or_it_didnt_happen'
