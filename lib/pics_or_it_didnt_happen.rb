@@ -11,7 +11,7 @@ module PicsOrItDidntHappen
     html_string = "<img src=\"#{src_string}\""
     html_string += " alt=\"#{alt_text}\"" if alt_text   
     html_string += " class=\"#{classes}\"" if classes 
-    return html_string
+    return html_string.strip + ">"
   end
 
   # this method was inspired by a Alain Beauvois's StackOverflow answer: https://stackoverflow.com/a/16635245
