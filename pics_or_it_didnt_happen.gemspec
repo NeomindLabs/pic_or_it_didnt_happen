@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'pics_or_it_didnt_happen'
-  s.version = '1.1.3'
+  s.version = '1.1.5'
   s.license = 'MIT'
   s.author = 'Greg Matthew Crossley'
   s.homepage = 'https://github.com/NeomindLabs/pics_or_it_didnt_happen'
@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
     'source_code_uri' => s.homepage,
   }
   s.files = %w[lib/pics_or_it_didnt_happen.rb]
+  s.add_development_dependency 'rspec'
 end
